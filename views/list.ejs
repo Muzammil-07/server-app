@@ -11,18 +11,22 @@
 
 <body>
     <div class="container">
-        <form method="post" action="/">
+        <%  %>
+            <form method="post" action="/">
 
-            <h1>Todo App </h1>
-            <input type="text" name="n" />
-            <button> Add </button>
-            <ul>
-                <li>
-                    work
-                </li>
-            </ul>
+                <h1>Todo App </h1>
+                <input type="text" name="n" />
+                <button> Add </button>
+                <ul>
 
-        </form>
+                    <li>
+                        <%= newList[i] %>
+                    </li>
+
+                </ul>
+
+            </form>
+            <% } %>
     </div>
 </body>
 
